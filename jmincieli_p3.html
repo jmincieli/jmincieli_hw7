@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Survey | Page 3</title>
+        <link rel="stylesheet" href="CSS/stylesheet.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Business Analytics Student Survey</h1>
+        </header>
+        <main>
+            <form>
+                 <fieldset>
+                    <legend>My ethnicity is:</legend>
+                    <label for="hispanic">
+                        <input type="checkbox" id="hispanic" name="ethnicity" value ="hispanic">Hispanic or Latino
+                    </label>
+                    <br />  
+                     <label for="white">
+                        <input type="checkbox" id="white" name="ethnicity" value="white">White or Caucasion
+                    </label>
+                    <br />
+                    <label for="black">
+                        <input type="checkbox" id="black" name="ethnicity" value="black">Black or African American
+                    </label>
+                    <br />
+                    <label for="native">
+                        <input type="checkbox" id="native" name="ethnicity" value="native">Native American
+                    </label>
+                    <br />
+                    <label for="asian">
+                        <input type="checkbox" id="asian" name="ethnicity" value="asian">Asian
+                    </label>
+                    <br />
+                    <label for="pacific">
+                        <input type="checkbox" id="pacific" name="ethnicity" value ="pacific">Pacific Islander
+                    </label>
+                    <br />
+                </fieldset> 
+                <fieldset>
+                    <label for="gender">
+                    My gender is: 
+                        <select name="gender" id="gender" required >
+                            <option value="" selected>-- choose gender --</option>
+                            <option value="M">Male</option>
+                            <option value="F">Female</option>
+                            <option value="NB">Non-Binary</option>
+                            <option value="NA">Prefer not to say</option>
+                        </select>   
+                    </label>
+                    </fieldset>
+            </form>
+        </main>
+        <footer>
+            <span class="page_number">page 3 of 3</span>
+            <button class="next_button" onclick="window.location.href='jmincieli_ty.html';">Finish</button>
+        </footer>
+    </body>
+</html>
