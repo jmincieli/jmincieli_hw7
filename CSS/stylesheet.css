@@ -1,28 +1,35 @@
 body {
     background-color: lightblue;
+    font-family: 'Roboto', sans-serif; /* Use Roboto font */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700; /* Apply bold font weight to headings */
 }
 
 .fa-pen-to-square {
     color: green;
-    font-size: 2rems;
+    font-size: 2rem; /* Fix typo '2rems' to '2rem' */
 }
 
-.page_number{
+.page_number {
     float: left;
     margin-right: 20px;
 }
 
-.next_button{
+.next_button {
     float: right;
     margin-right: 20px;
 }
 
-footer{
+footer {
     margin-top: 20px;
 }
 
-header{
-    float: center;
+header {
+    text-align: center; /* Center align header text */
 }
 
 main img {
@@ -40,30 +47,30 @@ main img {
 }
 
 .tooltip .tooltiptext {
-visibility: hidden;
-width: 200px;
-background-color: #333333;
-color: #f8f8f8;
-font-size: 1.15rem;
-font-family: Arial, Helvetica, sans-serif;
-text-align: center;
-border-radius: 6px;
-padding: 15px;
+    visibility: hidden;
+    width: 200px;
+    background-color: #333333;
+    color: #f8f8f8;
+    font-size: 1.15rem;
+    font-family: 'Roboto', sans-serif; /* Use Roboto font */
+    text-align: center;
+    border-radius: 6px;
+    padding: 15px;
 
-/* Position the tooltip text */
-position: absolute;
-z-index: 1;
-top: 100%;
-left: 50%;
-margin-left: -100px;
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -100px;
 }
 
 .tooltip:hover .tooltiptext {
-visibility: visible;
+    visibility: visible;
 }
 
-.required{
-    color:darkred;
-    font-size: .8rem;
-    font-style: italic
+.required {
+    color: darkred;
+    font-size: 0.8rem;
+    font-style: italic;
 }
