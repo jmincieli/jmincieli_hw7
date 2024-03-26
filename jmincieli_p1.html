@@ -13,9 +13,17 @@
         <main>
             <form>
                 <fieldset>
+                    <label for="name">
+                    My name is:
+                    <input type="text" id="name" required autofocus />
+                    <span class="required"> required </span>
+                    </label>
+                </fieldset>
+                <fieldset>
                     <label for="country">
                     My home country is:
-                    <input type="text" id="country" autofocus />
+                    <input type="text" id="country" required />
+                    <span class="required"> required </span>
                     </label>
                 </fieldset>
 
@@ -23,13 +31,14 @@
                     <label for="town">
                     My home town is:
                     <input type="text" id="town" required />
+                    <span class="required"> required </span>
                     </label>
                 </fieldset>
 
                 <fieldset>
                     <label for="state">
                     My home state is: 
-                        <select name="state" id="state" required >
+                        <select name="state" id="state">
                             <option value="" selected>-- choose state/territory --</option>
                             <option value="AL">AL</option>
                             <option value="AK">AK</option>

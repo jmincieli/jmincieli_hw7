@@ -3,7 +3,7 @@ body {
 }
 
 .fa-pen-to-square {
-    color: white;
+    color: green;
     font-size: 2rems;
 }
 
@@ -25,3 +25,45 @@ header{
     float: center;
 }
 
+main img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    max-height: 300px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+visibility: hidden;
+width: 200px;
+background-color: #333333;
+color: #f8f8f8;
+font-size: 1.15rem;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+border-radius: 6px;
+padding: 15px;
+
+/* Position the tooltip text */
+position: absolute;
+z-index: 1;
+top: 100%;
+left: 50%;
+margin-left: -100px;
+}
+
+.tooltip:hover .tooltiptext {
+visibility: visible;
+}
+
+.required{
+    color:darkred;
+    font-size: .8rem;
+    font-style: italic
+}

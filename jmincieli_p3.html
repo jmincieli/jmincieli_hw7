@@ -4,6 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Survey | Page 3</title>
+        <script src="https://kit.fontawesome.com/2658dbe0ef.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="CSS/stylesheet.css" />
     </head>
     <body>
@@ -41,15 +42,18 @@
                 </fieldset> 
                 <fieldset>
                     <label for="gender">
-                    My gender is: 
+                    My gender is:
                         <select name="gender" id="gender" required >
                             <option value="" selected>-- choose gender --</option>
                             <option value="M">Male</option>
                             <option value="F">Female</option>
                             <option value="NB">Non-Binary</option>
                             <option value="NA">Prefer not to say</option>
-                        </select>   
+                        </select>
                     </label>
+                    <span class="tooltip"><i class="fa-solid fa-circle-question"></i>
+                        <span class="tooltip tooltiptext">Letting us know how you identify yourself helps us measure and enhance diversity and inclusivity in tech by addressing historical gender imbalances.</span>
+                    </span>
                     </fieldset>
             </form>
         </main>
