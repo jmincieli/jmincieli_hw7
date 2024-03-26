@@ -1,17 +1,17 @@
 body {
     background-color: lightblue;
-    font-family: 'Roboto', sans-serif; /* Use Roboto font */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 700; /* Apply bold font weight to headings */
+    font-weight: 700;
 }
 
 .fa-pen-to-square {
     color: green;
-    font-size: 2rem; /* Fix typo '2rems' to '2rem' */
+    font-size: 2rem;
 }
 
 .page_number {
@@ -29,7 +29,7 @@ footer {
 }
 
 header {
-    text-align: center; /* Center align header text */
+    text-align: center;
 }
 
 main img {
@@ -52,12 +52,11 @@ main img {
     background-color: #333333;
     color: #f8f8f8;
     font-size: 1.15rem;
-    font-family: 'Roboto', sans-serif; /* Use Roboto font */
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     border-radius: 6px;
     padding: 15px;
 
-    /* Position the tooltip text */
     position: absolute;
     z-index: 1;
     top: 100%;
